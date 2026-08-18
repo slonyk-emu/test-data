@@ -8,6 +8,10 @@ Test corpora for slonyk development, redistributed as release assets.
   test cases), repackaged from
   [SingleStepTests/65x02](https://github.com/SingleStepTests/65x02) at the
   commit named by the tag.
+- `nestest-<version>` — kevtris's nestest CPU test ROM together with the
+  Nintendulator golden execution log, fetched from
+  <https://www.qmtpro.com/~nes/misc/>. Community-published freeware;
+  checksums and provenance ship inside the archive.
 
 ## Licensing
 
