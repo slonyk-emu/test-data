@@ -8,6 +8,11 @@ Test corpora for slonyk development, redistributed as release assets.
   test cases), repackaged from
   [SingleStepTests/65x02](https://github.com/SingleStepTests/65x02) at the
   commit named by the tag.
+- `cpu-interrupts-v2-<sha12>` — blargg's cpu_interrupts_v2 test suite (five
+  single-test ROMs, the combined multi-test ROM, upstream readme and
+  sources), repackaged from
+  [christopherpow/nes-test-roms](https://github.com/christopherpow/nes-test-roms)
+  at the commit named by the tag.
 - `nestest-<version>` — kevtris's nestest CPU test ROM together with the
   Nintendulator golden execution log, fetched from
   <https://www.qmtpro.com/~nes/misc/>. Community-published freeware;

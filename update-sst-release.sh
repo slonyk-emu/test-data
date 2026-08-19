@@ -5,6 +5,7 @@
 #
 # Usage: ./update-sst-release.sh <upstream-commit-sha>
 set -euo pipefail
+export COPYFILE_DISABLE=1 # no AppleDouble junk when packaging on macOS
 
 upstream_sha="${1:?usage: ./update-sst-release.sh <upstream-commit-sha>}"
 upstream_repo=SingleStepTests/65x02

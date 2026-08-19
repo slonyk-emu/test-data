@@ -5,6 +5,7 @@
 #
 # Usage: ./update-nestest-release.sh <version>   (e.g. v1)
 set -euo pipefail
+export COPYFILE_DISABLE=1 # no AppleDouble junk when packaging on macOS
 
 version="${1:?usage: ./update-nestest-release.sh <version>}"
 release_repo=slonyk-emu/test-data
